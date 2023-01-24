@@ -5,10 +5,12 @@ exports.typeDefs = gql`
     name: String!
     username: String!
     age: Int!
-    id: Int
+    id: ID!
+    friends: [UserTypeSchema]
   }
 
   type Query {
     users: [UserTypeSchema]
+    user(id: ID): UserTypeSchema!
   }
 `;

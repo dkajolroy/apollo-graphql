@@ -4,12 +4,14 @@ exports.fakeData = [
     name: "Kajol Roy",
     age: 22,
     username: "kajolroy",
+    country: "IN",
     friends: [
       {
         id: 4,
         name: "Mrinal Roy",
         age: 26,
         username: "mrinalroy",
+        country: "IN",
       },
     ],
   },
@@ -18,12 +20,14 @@ exports.fakeData = [
     name: "Gobindo Roy",
     age: 25,
     username: "gobindoroy",
+    country: "IN",
     friends: [
       {
         id: 1,
         name: "Kajol Roy",
         age: 22,
         username: "kajolroy",
+        country: "IN",
       },
     ],
   },
@@ -32,18 +36,21 @@ exports.fakeData = [
     name: "Vuti Roy",
     age: 26,
     username: "vuti",
+    country: "US",
     friends: [
       {
         id: 1,
         name: "Kajol Roy",
         age: 22,
         username: "kajolroy",
+        country: "IN",
       },
       {
         id: 4,
         name: "Mrinal Roy",
         age: 26,
         username: "mrinalroy",
+        country: "IN",
       },
     ],
   },
@@ -53,5 +60,6 @@ exports.fakeData = [
     age: 26,
     username: "mrinalroy",
     friends: [],
+    country: "IN",
   },
 ];

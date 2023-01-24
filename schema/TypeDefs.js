@@ -6,7 +6,15 @@ exports.typeDefs = gql`
     username: String!
     age: Int!
     id: ID!
+    country: CountryType!
     friends: [UserTypeSchema]
+  }
+
+  enum CountryType {
+    BD
+    IN
+    US
+    UK
   }
 
   type Query {

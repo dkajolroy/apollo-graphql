@@ -1,5 +1,4 @@
 const { fakeData } = require("../fakeData");
-// const _ = require("lodash");
 
 exports.resolvers = {
   Query: {

@@ -11,4 +11,10 @@ exports.resolvers = {
       return user;
     },
   },
+  Mutation: {
+    createUser: (_, arg) => {
+      const user = arg.input;
+      console.log(user);
+    },
+  },
 };

@@ -21,4 +21,15 @@ exports.typeDefs = gql`
     users: [UserTypeSchema]
     user(id: ID): UserTypeSchema!
   }
+
+  input inputUserType {
+    name: String!
+    age: Int!
+    username: String!
+    country: CountryType
+  }
+
+  type Mutation {
+    createUser(input: inputUserType!): UserTypeSchema
+  }
 `;
